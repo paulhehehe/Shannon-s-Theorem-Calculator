@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Ass2" id="770C66E6-9B36-CE16-690D-E33EC5309E3C" version="3.5">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:39:41 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>770C66E6-9B36-CE16-690D-E33EC5309E3C</designId>
+</OSDM_Design>

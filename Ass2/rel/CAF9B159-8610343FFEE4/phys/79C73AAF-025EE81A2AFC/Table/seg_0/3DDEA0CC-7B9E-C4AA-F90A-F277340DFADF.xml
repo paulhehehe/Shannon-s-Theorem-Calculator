@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PLAYLIST" directorySegmentName="seg_0" id="3DDEA0CC-7B9E-C4AA-F90A-F277340DFADF">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 17:53:10 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<schemaObject>45C02584-0FD8-3A0E-7DB6-16872987225C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6C2501A2-019D-56AE-7A4E-D1B0179ED151</segment>
+<tableSpace>FB9791E8-4BAE-7DAC-4B3E-EC84BAA114A6</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CREATEDBYUSERID" id="3F1DB5F7-4D02-3527-4508-FC43769DE031">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 17:53:10 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ISPUBLIC" id="63332EB8-9BF0-DB54-10A0-B0ACB677C1CC">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 17:53:10 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PALYLISTNAME" id="A2323DEB-85FB-9518-6471-30C882D4B162">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 17:53:10 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="A259535B-8940-94C2-ED1E-735C7804CB8C">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 17:53:10 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PLAYLIST_PK" id="32E6293E-D0F3-0C9D-4947-2124C6542829">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 17:53:10 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<schemaObject>45C02584-0FD8-3A0E-7DB6-16872987225C</schemaObject>
+<segment>97CFCF7A-A766-2D31-C9CA-54E8646E3192</segment>
+<tableSpace>FB9791E8-4BAE-7DAC-4B3E-EC84BAA114A6</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PLAYLIST_FK1" id="4706A708-F36D-C53C-3A7E-35720CAC0542">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 17:53:10 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PLAYLIST_PK" id="CC99C228-EBAB-DB0C-030D-5C3053054887">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 17:53:10 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<segment>97CFCF7A-A766-2D31-C9CA-54E8646E3192</segment>
+<tableSpace>FB9791E8-4BAE-7DAC-4B3E-EC84BAA114A6</tableSpace>
+<existingIndex>32E6293E-D0F3-0C9D-4947-2124C6542829</existingIndex>
+<indexSegment>97CFCF7A-A766-2D31-C9CA-54E8646E3192</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

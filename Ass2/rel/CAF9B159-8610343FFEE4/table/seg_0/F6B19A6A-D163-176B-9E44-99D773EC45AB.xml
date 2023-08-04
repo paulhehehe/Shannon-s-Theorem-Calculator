@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6B19A6A-D163-176B-9E44-99D773EC45AB" schemaObject="45C02584-0FD8-3A0E-7DB6-16872987225C" name="USERS">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 17:53:21 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D2D3922E-3B27-8866-2211-5EE462A73E67">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 17:53:21 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENDER" id="74B53CDB-D299-906C-F876-F529DBD5E7D0">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>GENDER</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 17:53:21 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>26 BYTE</dataTypeSize>
+<ownDataTypeParameters>26 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="B5F952F8-A013-BBC3-3977-8399D4B6E352">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 17:53:21 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1075E9AB-206C-78CC-04B0-7A1D381FFAD6" name="USERS_PK">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>USERS_PK</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 17:53:21 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2D3922E-3B27-8866-2211-5EE462A73E67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5F0BCD8-835D-DF45-63EF-84DDA2C27F47" schemaObject="45C02584-0FD8-3A0E-7DB6-16872987225C" name="USERS_PK">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>USERS_PK</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 17:53:21 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2D3922E-3B27-8866-2211-5EE462A73E67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

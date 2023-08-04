@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F82CFB4-7A85-B05C-688D-035A13BAC88E" schemaObject="7151AF2A-0C3C-9E21-89BE-F2494083143C" name="NAME">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:08:27 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USERNAME" id="0A3B0ECF-954E-77B0-16A6-9060CA2C75B6">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>NAME</sourceObjSchema>
+<sourceObjName>ID_USERNAME</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:08:27 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERNAME" id="17A59CAD-DD7B-5659-D06B-3D245E89AAC7">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>NAME</sourceObjSchema>
+<sourceObjName>USERNAME</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:08:27 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>26 BYTE</dataTypeSize>
+<ownDataTypeParameters>26 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A72D892E-30B5-1618-9ED0-224714B14775" name="NAME_PK">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>NAME_PK</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:08:27 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A3B0ECF-954E-77B0-16A6-9060CA2C75B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABDE2BA0-7C62-8874-73C9-E37D3EC58924" schemaObject="7151AF2A-0C3C-9E21-89BE-F2494083143C" name="NAME_PK">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>NAME_PK</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:08:27 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A3B0ECF-954E-77B0-16A6-9060CA2C75B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

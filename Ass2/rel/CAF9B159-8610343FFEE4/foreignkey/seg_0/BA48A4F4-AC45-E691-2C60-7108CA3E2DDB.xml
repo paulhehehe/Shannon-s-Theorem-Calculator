@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BA48A4F4-AC45-E691-2C60-7108CA3E2DDB" containerWithKeyObject="3585863C-DF22-A271-D5B6-8B1BC3A57B50" localFKIndex="5E0BA52E-E888-3266-1072-DD9783AC6713" name="TRACK_PLAYLIST_FK2">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>TRACK_PLAYLIST_FK2</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:51:06 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<referredTableLongName>GROUPUSER.TRACK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3D7C4978-DBCD-11AA-5C90-01F13F8FA289</referredTableID>
+<keyObject>45FCAD14-D7C0-26BA-54B6-0130CAFB98A2</keyObject>
+<referredKeyID>45FCAD14-D7C0-26BA-54B6-0130CAFB98A2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

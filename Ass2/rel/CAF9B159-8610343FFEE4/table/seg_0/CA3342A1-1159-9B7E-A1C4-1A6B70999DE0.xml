@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA3342A1-1159-9B7E-A1C4-1A6B70999DE0" schemaObject="45C02584-0FD8-3A0E-7DB6-16872987225C" name="PLAYLIST_ISPUBLIC">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>PLAYLIST_ISPUBLIC</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:50:18 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PLAYLIST_ISPUBLIC" id="DAE0E1C9-7D4E-DE0F-EC82-E80F2272AF80">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>PLAYLIST_ISPUBLIC</sourceObjSchema>
+<sourceObjName>ID_PLAYLIST_ISPUBLIC</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:50:18 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="3AF2B5A2-0990-D303-F72F-FC7D2B60D122">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>PLAYLIST_ISPUBLIC</sourceObjSchema>
+<sourceObjName>START_DATE</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:50:18 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="20C2AE31-AF48-98E6-B775-39B1B2F29320">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>PLAYLIST_ISPUBLIC</sourceObjSchema>
+<sourceObjName>END_DATE</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:50:18 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PLAYLIST" id="EDE93BDA-3A14-69FD-BDC6-79E2F502557C">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>PLAYLIST_ISPUBLIC</sourceObjSchema>
+<sourceObjName>ID_PLAYLIST</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:50:18 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="795E6D6C-8892-76EE-0CF7-42414714403B" referredColumn="14D28470-0977-91A9-867D-01E06034107F"/>
+</associations>
+</Column>
+<Column name="ISPUBLIC" id="965A2FD9-4898-C2CE-F03D-AE22A4A59505">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>PLAYLIST_ISPUBLIC</sourceObjSchema>
+<sourceObjName>ISPUBLIC</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:50:18 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6B1B4F8-159A-C646-D359-EC84EEDEC37C" referredColumn="48F36CEE-42D3-0202-5468-8EA66343D735"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E78AEDF2-EE04-06A5-B7E3-B9EB414C618D" name="PLAYLIST_ISPUBLIC_PK">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>PLAYLIST_ISPUBLIC_PK</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:50:18 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAE0E1C9-7D4E-DE0F-EC82-E80F2272AF80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF8AF2B0-FCD5-CFA9-F36E-917161C9EFF3" schemaObject="45C02584-0FD8-3A0E-7DB6-16872987225C" name="PLAYLIST_ISPUBLIC_PK">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>PLAYLIST_ISPUBLIC_PK</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:50:18 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAE0E1C9-7D4E-DE0F-EC82-E80F2272AF80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1639B9A3-EA5B-2A0C-024B-499C5CC8C938" name="PLAYLIST_ISPUBLIC_FK1">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:50:18 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="965A2FD9-4898-C2CE-F03D-AE22A4A59505"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F43D6EB-7469-C80F-B904-3C87D3864B79" name="PLAYLIST_ISPUBLIC_FK2">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:50:18 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDE93BDA-3A14-69FD-BDC6-79E2F502557C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

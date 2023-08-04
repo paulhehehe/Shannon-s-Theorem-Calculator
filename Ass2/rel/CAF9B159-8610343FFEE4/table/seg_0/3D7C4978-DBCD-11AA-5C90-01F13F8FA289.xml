@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D7C4978-DBCD-11AA-5C90-01F13F8FA289" schemaObject="45C02584-0FD8-3A0E-7DB6-16872987225C" name="TRACK">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>TRACK</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:45:00 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="439F9B41-67C4-A587-8BC6-119811534FF6">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>TRACK</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:45:00 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78D4FF3B-D688-BFC7-5C5F-D6D243321688" referredColumn="A0E7B642-E3A4-63BB-9357-72B806E0798C"/>
+</associations>
+</Column>
+<Column name="TRACK_SPOTIFYID" id="2524068E-8E34-4A15-E290-77591935FC37">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>TRACK</sourceObjSchema>
+<sourceObjName>TRACK_SPOTIFYID</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:45:00 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>26 BYTE</dataTypeSize>
+<ownDataTypeParameters>26 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRACK_NAME" id="791B30C0-CA67-6F1F-A085-4B681D442816">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>TRACK</sourceObjSchema>
+<sourceObjName>TRACK_NAME</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:45:00 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DURATION_MS" id="DF93493B-136E-EBD8-FF56-7CA60A9907C8">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>TRACK</sourceObjSchema>
+<sourceObjName>DURATION_MS</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:45:00 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_POPULARITY" id="383C057B-66EF-86D3-17BB-149F23EB9B41">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>TRACK</sourceObjSchema>
+<sourceObjName>ID_POPULARITY</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:45:00 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RELEASE_DATE" id="8C599117-0D8F-0797-231C-D5F2DCB7B8CA">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>TRACK</sourceObjSchema>
+<sourceObjName>RELEASE_DATE</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:45:00 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24093335-6670-C8F4-BA46-2725E64BCAB5" name="TRACK_PK">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>TRACK_PK</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:45:00 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="439F9B41-67C4-A587-8BC6-119811534FF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45FCAD14-D7C0-26BA-54B6-0130CAFB98A2" schemaObject="45C02584-0FD8-3A0E-7DB6-16872987225C" name="TRACK_PK">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>TRACK_PK</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:45:00 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="439F9B41-67C4-A587-8BC6-119811534FF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="609112FA-FEE8-48F3-0B10-8B863AC9F824" name="TRACK_FK1">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:45:00 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="439F9B41-67C4-A587-8BC6-119811534FF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

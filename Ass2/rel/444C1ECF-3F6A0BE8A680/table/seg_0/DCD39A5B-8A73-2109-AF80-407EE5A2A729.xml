@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCD39A5B-8A73-2109-AF80-407EE5A2A729" schemaObject="7151AF2A-0C3C-9E21-89BE-F2494083143C" name="USERS_NAME">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>USERS_NAME</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:27 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_NAME_USER" id="894B138E-43C8-4BEF-04FD-7DC969ED7041">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>USERS_NAME</sourceObjSchema>
+<sourceObjName>ID_NAME_USER</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:27 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="EBD66C96-ACF7-3AA9-7461-E3601899A60F">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>USERS_NAME</sourceObjSchema>
+<sourceObjName>START_DATE</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:27 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="54CABA27-2DFC-13CC-D446-AA9BEB1AE8CF">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>USERS_NAME</sourceObjSchema>
+<sourceObjName>END_DATE</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:27 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USERS" id="3896E8E8-5FBE-8D14-784D-29B2742368FF">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>USERS_NAME</sourceObjSchema>
+<sourceObjName>ID_USERS</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:27 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62ED8A3C-D72E-BA0A-A8AA-0A40BAD10DF9" referredColumn="028D8A1D-D8B7-C4EB-3E1D-46F789B75536"/>
+</associations>
+</Column>
+<Column name="ID_USERNAME" id="6E9BE36D-BD72-83B0-9C7B-FA84D4EEB14C">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>USERS_NAME</sourceObjSchema>
+<sourceObjName>ID_USERNAME</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:27 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92902EB5-0FE3-1B60-99DE-15D9FBA76497" referredColumn="0A3B0ECF-954E-77B0-16A6-9060CA2C75B6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BF2081E-DAE9-6C29-05E7-D5BA039A06FA" name="USERS_NAME_PK">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>USERS_NAME_PK</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:27 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="894B138E-43C8-4BEF-04FD-7DC969ED7041"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE159799-F08A-0DA0-9C79-9F246A9EBA8C" schemaObject="7151AF2A-0C3C-9E21-89BE-F2494083143C" name="USERS_NAME_PK">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>USERS_NAME_PK</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:27 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="894B138E-43C8-4BEF-04FD-7DC969ED7041"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C94A2AE-9021-AFA9-1568-00D0DC5E0735" name="USERS_NAME_FK1">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:27 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E9BE36D-BD72-83B0-9C7B-FA84D4EEB14C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B45D782-23F3-22F5-8278-313BC961BEF5" name="USERS_NAME_FK2">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:27 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3896E8E8-5FBE-8D14-784D-29B2742368FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

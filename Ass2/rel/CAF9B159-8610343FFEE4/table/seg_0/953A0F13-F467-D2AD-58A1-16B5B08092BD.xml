@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="953A0F13-F467-D2AD-58A1-16B5B08092BD" schemaObject="45C02584-0FD8-3A0E-7DB6-16872987225C" name="ARTIST_TRACK">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>ARTIST_TRACK</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:49:43 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A0E7B642-E3A4-63BB-9357-72B806E0798C">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>ARTIST_TRACK</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:49:43 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARTIST_ID" id="01AB2ABA-DA7C-E27C-4D90-07399696AF25">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>ARTIST_TRACK</sourceObjSchema>
+<sourceObjName>ARTIST_ID</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:49:43 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRACKID" id="E6CA86DB-AA09-2661-B77E-DF7A28FB654A">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>ARTIST_TRACK</sourceObjSchema>
+<sourceObjName>TRACKID</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:49:43 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6FAC78B-BA91-34ED-1930-AEC17714BA30" name="ARTIST_TRACK_PK">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>ARTIST_TRACK_PK</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:49:43 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0E7B642-E3A4-63BB-9357-72B806E0798C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3872A267-9CC2-D1E1-4D54-66F39CD92124" schemaObject="45C02584-0FD8-3A0E-7DB6-16872987225C" name="ARTIST_TRACK_PK">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>ARTIST_TRACK_PK</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:49:43 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0E7B642-E3A4-63BB-9357-72B806E0798C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

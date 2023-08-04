@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39F61A69-7E5B-A9A7-C389-E6955324BBF9" schemaObject="7151AF2A-0C3C-9E21-89BE-F2494083143C" name="POPULARITY">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>POPULARITY</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:11:45 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_POPULARITY" id="B0676BBB-841F-CD5B-EDC3-13E6BFBE196C">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>POPULARITY</sourceObjSchema>
+<sourceObjName>ID_POPULARITY</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:11:45 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POPULARITY" id="9985F8AB-B6D4-FC12-0AD4-BD613F261647">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>POPULARITY</sourceObjSchema>
+<sourceObjName>POPULARITY</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:11:45 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16DC2268-DE2E-0D14-EBDD-CFE6518A057F" name="POPULARITY_PK">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>POPULARITY_PK</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:11:45 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0676BBB-841F-CD5B-EDC3-13E6BFBE196C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A57E883B-C008-50C8-5559-08EC8D6ED4CF" schemaObject="7151AF2A-0C3C-9E21-89BE-F2494083143C" name="POPULARITY_PK">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>POPULARITY_PK</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:11:45 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0676BBB-841F-CD5B-EDC3-13E6BFBE196C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

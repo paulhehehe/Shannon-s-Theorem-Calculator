@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B6A56602-8965-50A7-00D7-0A3989D8CABD" containerWithKeyObject="D9C5F9FC-1606-5C86-1AE3-7DBDF7C62659" localFKIndex="CA18AB23-FAA1-61E3-655C-BD5E33991E05" name="TRACK_POPULARITY_FK2">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>TRACK_POPULARITY_FK2</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 15:49:12 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<referredTableLongName>GROUPUSER.TRACK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3D7C4978-DBCD-11AA-5C90-01F13F8FA289</referredTableID>
+<keyObject>45FCAD14-D7C0-26BA-54B6-0130CAFB98A2</keyObject>
+<referredKeyID>45FCAD14-D7C0-26BA-54B6-0130CAFB98A2</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

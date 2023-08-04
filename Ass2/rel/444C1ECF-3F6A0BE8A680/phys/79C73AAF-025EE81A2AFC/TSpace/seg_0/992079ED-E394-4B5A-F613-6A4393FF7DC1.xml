@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="GROUP2" directorySegmentName="seg_0" id="992079ED-E394-4B5A-F613-6A4393FF7DC1">
+<sourceConnName>groupUserConnection</sourceConnName>
+<sourceObjSchema>GROUPUSER</sourceObjSchema>
+<sourceObjName>GROUP2</sourceObjName>
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 17:58:47 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

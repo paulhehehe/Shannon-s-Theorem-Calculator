@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TRACK" directorySegmentName="seg_0" id="D72EB8A4-11A8-F6AD-7B53-E146B4CC9DF2">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:04 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<schemaObject>7151AF2A-0C3C-9E21-89BE-F2494083143C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1EAF676C-5C95-74B7-61CA-C7F4680EA781</segment>
+<tableSpace>992079ED-E394-4B5A-F613-6A4393FF7DC1</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DURATION_MS" id="7BD9E07F-44FC-C512-E8D6-6354D3BAA222">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:04 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRACK_NAME" id="9EF54FE1-8C79-CEEF-C222-58B9A74EBF60">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:04 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRACK_SPOTIFYID" id="B047E6D6-D74F-38C8-32DD-1FA931A90CF7">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:04 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_POPULARITY" id="B27E6816-8E88-548A-72EC-3D438F0921D3">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:04 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="C8CCF94D-F061-EA52-61AF-F81D6796FC02">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:04 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RELEASE_DATE" id="D6D29047-51D8-5C83-E69E-24B934BF7E35">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:04 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TRACK_PK" id="6B2A6A17-9DE3-73A0-C663-1C1C49B1F743">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:04 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<schemaObject>7151AF2A-0C3C-9E21-89BE-F2494083143C</schemaObject>
+<segment>C52A052F-F790-447C-E32D-D4C9DED1C5F5</segment>
+<tableSpace>992079ED-E394-4B5A-F613-6A4393FF7DC1</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TRACK_PK" id="C993B3F2-6F9F-81DE-FECC-72DCCFA9A166">
+<createdBy>Thinpad</createdBy>
+<createdTime>2023-08-03 18:09:04 UTC</createdTime>
+<ownerDesignName>Ass2</ownerDesignName>
+<segment>C52A052F-F790-447C-E32D-D4C9DED1C5F5</segment>
+<tableSpace>992079ED-E394-4B5A-F613-6A4393FF7DC1</tableSpace>
+<existingIndex>6B2A6A17-9DE3-73A0-C663-1C1C49B1F743</existingIndex>
+<indexSegment>C52A052F-F790-447C-E32D-D4C9DED1C5F5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
