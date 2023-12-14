@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="95D44CDA-0742-301B-C0C6-8DB9A8FAD141" mainViewID="E594D3AF-9406-B105-ABFD-10B0D914B841">
-<createdBy>Thinpad</createdBy>
-<createdTime>2023-08-03 15:39:42 UTC</createdTime>
-<ownerDesignName>Ass2</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
